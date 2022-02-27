@@ -1,11 +1,10 @@
-font-family: 'Roboto', sans-serif;
-}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
 ol{
   padding:0;
 }
-
-/* Section Specific Styles */
 
 #scores{
   position:absolute;
@@ -92,6 +91,24 @@ button{
   margin-top:200px;
 }
 
+#scoreIndicator{
+    border-top: 1px solid #999;
+      color: #999;
+      font-size: 1.3em;
+      margin: 0;
+      font-style: italic;
+      margin: 0 auto;
+      max-width: 50%;
+  }
+  
+  #scoreIndicator p{
+    margin:0;
+    margin-top:10px;
+  }
+  
+  section{
+    margin-bottom: 15px!important;
+  }
 
 .hide{
   display:none;
